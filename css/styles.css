@@ -1,0 +1,70 @@
+:root {
+  --primary-text-color: #2e2f42;
+  --secondary-text-color: #434455;
+  --accent-color: #4d5ae5;
+}
+/* цвет основного текста #2e2f42 */
+/* вторичний цвет текста  #434455 */
+/*  белий #ffffff */
+/* акцент #4D5AE5 */
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+}
+
+/* header */
+
+.header-list .header-link:hover,
+.header-list .header-link:focus {
+  color: #404bbf;
+}
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.header-contact .header-contact-link:hover,
+.header-contact .header-contact-link:focus {
+  color: #404bbf;
+}
+.header-contact-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+/* hero */
+.hero {
+  background-color: #2e2f42;
+}
+.hero-text {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.hero-btn {
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+/* section */
+.section-title {
+  color: var(--primary-text-color);
+}
+.section-text {
+  color: var(--secondary-text-color);
+}
