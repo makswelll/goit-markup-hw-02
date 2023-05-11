@@ -3,6 +3,7 @@
   --secondary-text-color: #434455;
   --accent-color: #4d5ae5;
 }
+
 /* цвет основного текста #2e2f42 */
 /* вторичний цвет текста  #434455 */
 /*  белий #ffffff */
@@ -15,12 +16,28 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-/* header */
+/* службові класи */
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.section-title {
+  color: var(--primary-text-color);
+}
+
+.section-text {
+  color: var(--secondary-text-color);
+}
+
+/* --------------------------------------------HEADER ----------------------------------------------------*/
 
 .header-list .header-link:hover,
 .header-list .header-link:focus {
   color: #404bbf;
 }
+
 .header-link {
   font-weight: 500;
   font-size: 16px;
@@ -28,10 +45,12 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
+
 .header-contact .header-contact-link:hover,
 .header-contact .header-contact-link:focus {
   color: #404bbf;
 }
+
 .header-contact-link {
   font-weight: 400;
   font-size: 16px;
@@ -39,11 +58,13 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
-/* hero */
+
+/*------------------------------------------------ HERO--------------------------------------------------------*/
 .hero {
   background-color: #2e2f42;
 }
-.hero-text {
+
+.hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -51,20 +72,74 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+
 .hero-btn {
+  font-family: inherit;
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
+  cursor: pointer;
 }
-/* section */
-.section-title {
-  color: var(--primary-text-color);
+
+/* -------------------------------------------------------SECTION PROGRAM--------------------------------------------------------*/
+.program {
 }
-.section-text {
-  color: var(--secondary-text-color);
+.program-title {
 }
+
+/* -------------------------------------------------------SECTION ІNSTRUCTION--------------------------------------------------------*/
+.instruction {
+}
+
+.instruction-title{
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+}
+
+/* -------------------------------------------------------SECTION TEAM--------------------------------------------------------*/
+.team {
+  background: #d9d9d9;
+}
+
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.team-name {
+  font-weight: 500;
+}
+
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* -------------------------------------------------------FOOTER--------------------------------------------------------*/
+
+.footer {
+  background: #2e2f42;
+}
+
+.footer-logo {
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+/* -------------------------------------------------------PORTFOLIO--------------------------------------------------------*/
