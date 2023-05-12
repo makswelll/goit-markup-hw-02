@@ -2,6 +2,7 @@
   --primary-text-color: #2e2f42;
   --secondary-text-color: #434455;
   --accent-color: #4d5ae5;
+  --primare-hover-color: #404bbf;
 }
 
 /* цвет основного текста #2e2f42 */
@@ -16,26 +17,66 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-/* службові класи */
+/*------------------------------------------------------- службові класи---------------------------------------------- */
 .list {
   list-style: none;
 }
 .link {
   text-decoration: none;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .section-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
 
 .section-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+}
+.button {
 }
 
 /* --------------------------------------------HEADER ----------------------------------------------------*/
 
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+
+.header-logo-color {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #2e2f42;
+}
+
 .header-list .header-link:hover,
 .header-list .header-link:focus {
-  color: #404bbf;
+  color: var(--primare-hover-color);
 }
 
 .header-link {
@@ -48,10 +89,11 @@ body {
 
 .header-contact .header-contact-link:hover,
 .header-contact .header-contact-link:focus {
-  color: #404bbf;
+  color: var(--primare-hover-color);
 }
 
 .header-contact-link {
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -89,17 +131,23 @@ body {
 .program {
 }
 .program-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.program-list {
 }
 
 /* -------------------------------------------------------SECTION ІNSTRUCTION--------------------------------------------------------*/
 .instruction {
 }
 
-.instruction-title{
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
+.instruction-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 /* -------------------------------------------------------SECTION TEAM--------------------------------------------------------*/
@@ -110,19 +158,14 @@ letter-spacing: 0.02em;
 .team-title {
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .team-name {
-  font-weight: 500;
 }
 
 .team-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 /* -------------------------------------------------------FOOTER--------------------------------------------------------*/
@@ -132,6 +175,21 @@ letter-spacing: 0.02em;
 }
 
 .footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+
+.footer-logo-color {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #f4f4fd;
 }
 
 .footer-text {
@@ -142,4 +200,30 @@ letter-spacing: 0.02em;
   color: #f4f4fd;
 }
 
-/* -------------------------------------------------------PORTFOLIO--------------------------------------------------------*/
+/* -------------------------------------------------------PORTFOLIO PROJECTS--------------------------------------------------------*/
+.projects {
+}
+
+.projects-list {
+}
+
+.projects-item {
+}
+
+.projects-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background: #f4f4fd;
+  cursor: pointer;
+}
+/* -------------------------------------------------------PORTFOLIO EXAMPLES--------------------------------------------------------*/
+.examples-item {
+}
+.examples-title {
+}
+.examples-text {
+}
