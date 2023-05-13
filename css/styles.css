@@ -52,7 +52,7 @@ body {
   color: var(--secondary-text-color)
   }
 .button:hover,:focus {
-color: var(--primare-hover-color);
+background-color:var(--primare-hover-color) ;
 }
 
 /* --------------------------------------------HEADER ----------------------------------------------------*/
