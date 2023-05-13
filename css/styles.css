@@ -51,7 +51,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color)
   }
-.button {
+.button:hover,:focus {
+color: var(--primare-hover-color);
 }
 
 /* --------------------------------------------HEADER ----------------------------------------------------*/
@@ -62,11 +63,13 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
 }
 
 .header-logo-color {
   font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -89,7 +92,7 @@ body {
 
 .header-contact .header-contact-link:hover,
 .header-contact .header-contact-link:focus {
-  color: var(--primary-text-color)
+  color: var(--primare-hover-color)
 }
 
 .header-contact-link {
@@ -176,6 +179,7 @@ body {
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -189,6 +193,7 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #f4f4fd;
 }
 
