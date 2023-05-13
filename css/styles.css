@@ -98,7 +98,9 @@ background-color:var(--primare-hover-color) ;
 .header-contact .header-contact-link:focus {
   color: var(--primare-hover-color)
 }
-
+.header-contact{
+  font-style: normal;
+}
 .header-contact-link {
   font-style: normal;
   font-weight: 400;
