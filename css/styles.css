@@ -51,12 +51,15 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color)
   }
-.button:hover,:focus {
+.button:hover
+.button:focus{
 background-color:var(--primare-hover-color) ;
 }
 
 /* --------------------------------------------HEADER ----------------------------------------------------*/
-
+.header{
+  font-style: normal;
+}
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -219,6 +222,11 @@ background-color:var(--primare-hover-color) ;
 }
 
 .projects-item {
+}
+.projects-btn:hover
+.projects-btn:focus{
+  color: #ffffff;
+background-color: #404bbf;
 }
 
 .projects-btn {
