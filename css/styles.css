@@ -1,6 +1,6 @@
 :root {
-  --primary-text-color: #2e2f42;
-  --secondary-text-color: #434455;
+  --primary-text-color:  #434455;
+  --secondary-text-color: #2e2f42;
   --accent-color: #4d5ae5;
   --primare-hover-color: #404bbf;
 }
@@ -41,7 +41,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
+  color: var(--secondary-text-color)
 }
 
 .section-text {
@@ -49,8 +49,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--secondary-text-color);
-}
+  color: var(--secondary-text-color)
+  }
 .button {
 }
 
@@ -84,12 +84,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
+  color: var(--secondary-text-color)
 }
 
 .header-contact .header-contact-link:hover,
 .header-contact .header-contact-link:focus {
-  color: var(--primare-hover-color);
+  color: var(--primary-text-color)
 }
 
 .header-contact-link {
@@ -98,7 +98,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--secondary-text-color);
+  color: var(--primary-text-color)
 }
 
 /*------------------------------------------------ HERO--------------------------------------------------------*/
