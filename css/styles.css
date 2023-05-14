@@ -1,5 +1,5 @@
 :root {
-  --primary-text-color:  #434455;
+  --primary-text-color: #434455;
   --secondary-text-color: #2e2f42;
   --accent-color: #4d5ae5;
   --primare-hover-color: #404bbf;
@@ -41,7 +41,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--secondary-text-color)
+  color: var(--secondary-text-color);
 }
 
 .section-text {
@@ -49,15 +49,15 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color)
-  }
+  color: var(--primary-text-color);
+}
 .button:hover,
-.button:focus{
-background-color:var(--primare-hover-color) ;
+.button:focus {
+  background-color: var(--primare-hover-color);
 }
 
 /* --------------------------------------------HEADER ----------------------------------------------------*/
-.header{
+.header {
   font-style: normal;
 }
 .header-logo {
@@ -91,14 +91,14 @@ background-color:var(--primare-hover-color) ;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--secondary-text-color)
+  color: var(--secondary-text-color);
 }
 
 .header-contact .header-contact-link:hover,
 .header-contact .header-contact-link:focus {
-  color: var(--primare-hover-color)
+  color: var(--primare-hover-color);
 }
-.header-contact{
+.header-contact {
   font-style: normal;
 }
 .header-contact-link {
@@ -107,7 +107,7 @@ background-color:var(--primare-hover-color) ;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color)
+  color: var(--primary-text-color);
 }
 
 /*------------------------------------------------ HERO--------------------------------------------------------*/
@@ -162,7 +162,7 @@ background-color:var(--primare-hover-color) ;
 
 /* -------------------------------------------------------SECTION TEAM--------------------------------------------------------*/
 .team {
-  background: #F4F4FD
+  background: #f4f4fd;
 }
 
 .team-title {
@@ -172,7 +172,7 @@ background-color:var(--primare-hover-color) ;
   letter-spacing: 0.02em;
   text-align: center;
 }
-.team-item{
+.team-item {
   background-color: #ffffff;
 }
 
@@ -225,10 +225,13 @@ background-color:var(--primare-hover-color) ;
 
 .projects-item {
 }
-.projects-btn:hover
-.projects-btn:focus{
+.projects-btn:hover {
   color: #ffffff;
-background-color: #404bbf;
+  background-color: #404bbf;
+}
+.projects-btn:focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
 
 .projects-btn {
